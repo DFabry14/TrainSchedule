@@ -32,7 +32,7 @@ $(document).ready(function () {
         
     });
 
-    $("#submit").on("click", function () {
+    $("#submit").on("click", function (event) {
         event.preventDefault();
         var train = $("#trainName").val().trim();
         var dest = $("#destination").val().trim();
